@@ -13,7 +13,7 @@
    <children>
       <ImageView fitHeight="320.0" fitWidth="574.0">
          <image>
-            <Image url="@../../../../../../../../Desktop/68410027-dota-2-logo-wallpapers.jpg" />
+            <Image url="@../../../img/68410027-dota-2-logo-wallpapers.jpg" />
          </image>
          <effect>
             <Bloom threshold="0.33" />

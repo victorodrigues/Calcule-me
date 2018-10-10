@@ -16,7 +16,7 @@
             <Bloom threshold="0.33" />
          </effect>
          <image>
-            <Image url="@../../../../../../../../Desktop/68410027-dota-2-logo-wallpapers.jpg" />
+            <Image url="@../../../img/68410027-dota-2-logo-wallpapers.jpg" />
          </image>
       </ImageView>
       <TextField fx:id="txtNUmero1" layoutX="32.0" layoutY="47.0" />
