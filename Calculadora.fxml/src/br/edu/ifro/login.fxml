@@ -30,13 +30,13 @@
             <Font size="20.0" />
          </font>
       </Label>
-      <TextField layoutX="38.0" layoutY="77.0" />
+      <TextField fx:id="txtusu" layoutX="38.0" layoutY="77.0" />
       <Label layoutX="406.0" layoutY="288.0" opacity="0.83" prefHeight="30.0" prefWidth="168.0" text="Desinger by: Jonathan &amp; Victor rodrigues" textFill="WHITE">
          <font>
             <Font size="9.0" />
          </font>
       </Label>
-      <PasswordField layoutX="38.0" layoutY="160.0" />
+      <PasswordField fx:id="txtsenha" layoutX="38.0" layoutY="160.0" />
       <Label layoutX="362.0" layoutY="15.0" opacity="0.9" prefHeight="45.0" prefWidth="157.0" text="Calculadota" textFill="#bfb7b7">
          <font>
             <Font size="30.0" />
@@ -47,5 +47,6 @@
             <Font size="10.0" />
          </font>
       </Label>
+      <Button layoutX="110.0" layoutY="235.0" mnemonicParsing="false" text="Cadastrar" />
    </children>
 </AnchorPane>
