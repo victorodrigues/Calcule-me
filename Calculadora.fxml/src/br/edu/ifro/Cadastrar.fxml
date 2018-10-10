@@ -9,8 +9,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="316.0" prefWidth="573.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="br.edu.ifro.CadastrarController">
+<AnchorPane id="AnchorPane" prefHeight="316.0" prefWidth="573.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.CadastrarController">
    <children>
       <ImageView fitHeight="320.0" fitWidth="574.0">
          <effect>
@@ -30,13 +29,13 @@
             <Font size="30.0" />
          </font>
       </Label>
-      <PasswordField layoutX="38.0" layoutY="137.0" />
+      <PasswordField fx:id="senha1" layoutX="38.0" layoutY="137.0" />
       <Label layoutX="406.0" layoutY="288.0" opacity="0.83" prefHeight="30.0" prefWidth="168.0" text="Desinger by: Jonathan &amp; Victor rodrigues" textFill="WHITE">
          <font>
             <Font size="9.0" />
          </font>
       </Label>
-      <TextField layoutX="38.0" layoutY="54.0" />
+      <TextField fx:id="usuario" layoutX="38.0" layoutY="54.0" />
       <Label layoutX="38.0" layoutY="94.0" opacity="0.9" prefHeight="30.0" prefWidth="74.0" text="Senha" textFill="#bfb7b7">
          <font>
             <Font size="20.0" />
@@ -53,6 +52,6 @@
             <Font size="20.0" />
          </font>
       </Label>
-      <PasswordField layoutX="38.0" layoutY="217.0" />
+      <PasswordField fx:id="senha2" layoutX="38.0" layoutY="217.0" />
    </children>
 </AnchorPane>
