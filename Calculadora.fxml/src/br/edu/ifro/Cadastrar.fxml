@@ -41,7 +41,7 @@
             <Font size="20.0" />
          </font>
       </Label>
-      <Button layoutX="38.0" layoutY="265.0" mnemonicParsing="false" text="Cadastrar" />
+      <Button layoutX="38.0" layoutY="265.0" mnemonicParsing="false" onAction="#cadastrar" text="Cadastrar" />
       <Label layoutX="38.0" layoutY="11.0" opacity="0.9" prefHeight="30.0" prefWidth="74.0" text="Usuario" textFill="#bfb7b7">
          <font>
             <Font size="20.0" />

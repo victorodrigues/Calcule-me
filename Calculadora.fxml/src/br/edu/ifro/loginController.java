@@ -14,6 +14,9 @@ import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Scene;
 import javafx.scene.control.Alert;
+import javafx.scene.control.Button;
+import javafx.scene.control.PasswordField;
+import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -30,9 +33,11 @@ import javax.swing.JTextField;
 public class loginController implements Initializable {
 
     @FXML
-    private JTextField txtusu;
+    private TextField txtusu;
     @FXML
-    private JPasswordField txtsenha;
+    private PasswordField txtsenha;
+    @FXML
+    private Button btnCad;
 
     /**
      * Initializes the controller class.
@@ -45,7 +50,7 @@ public class loginController implements Initializable {
     @FXML
     private void cadastrarL(ActionEvent event) throws IOException {
     FXMLLoader fxmlLoader = new FXMLLoader();
-    fxmlLoader.setLocation(getClass().getResource("cadastrar.fxml"));
+    fxmlLoader.setLocation(getClass().getResource("Cadastrar.fxml"));
     Scene scene = new Scene(fxmlLoader.load(),500,500);
     Stage stage = new Stage();
     stage.setTitle("Cadastro");

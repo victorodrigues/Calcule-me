@@ -65,7 +65,6 @@ public class CadastrarController implements Initializable {
         }
     }
 
-    @FXML
     private void voltar(ActionEvent event) throws IOException {
    System.exit(0);
     }

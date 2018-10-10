@@ -9,7 +9,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="320.0" prefWidth="574.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.FXMLController">
+<AnchorPane id="AnchorPane" prefHeight="320.0" prefWidth="574.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.loginController">
    <children>
       <ImageView fitHeight="320.0" fitWidth="574.0">
          <image>
@@ -24,7 +24,7 @@
             <Font size="20.0" />
          </font>
       </Label>
-      <Button layoutX="38.0" layoutY="235.0" mnemonicParsing="false" text="Logar" />
+      <Button layoutX="38.0" layoutY="235.0" mnemonicParsing="false" onAction="#entrar" text="Logar" />
       <Label layoutX="38.0" layoutY="117.0" opacity="0.9" prefHeight="30.0" prefWidth="74.0" text="Senha" textFill="#bfb7b7">
          <font>
             <Font size="20.0" />
@@ -47,6 +47,6 @@
             <Font size="10.0" />
          </font>
       </Label>
-      <Button layoutX="110.0" layoutY="235.0" mnemonicParsing="false" text="Cadastrar" />
+      <Button fx:id="btnCad" layoutX="113.0" layoutY="235.0" mnemonicParsing="false" onAction="#cadastrarL" text="Cadastrar" />
    </children>
 </AnchorPane>
