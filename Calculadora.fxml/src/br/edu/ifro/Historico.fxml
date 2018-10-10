@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="339.0" prefWidth="520.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="br.edu.ifro.HistoricoController">
+   <children>
+      <ImageView fitHeight="337.0" fitWidth="588.0" layoutY="1.0">
+         <effect>
+            <Lighting bumpInput="$null" diffuseConstant="1.98" specularConstant="0.0" specularExponent="40.0" surfaceScale="9.88">
+               <light>
+                  <Light.Distant color="#f5b3b3" />
+               </light>
+            </Lighting>
+         </effect>
+         <image>
+            <Image url="@../../../../../../../../Desktop/68410027-dota-2-logo-wallpapers.jpg" />
+         </image>
+      </ImageView>
+      <TableView layoutX="1.0" layoutY="-2.0" opacity="0.9" prefHeight="339.0" prefWidth="588.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="codigo" />
+            <TableColumn prefWidth="110.0" text="primeiro número" />
+            <TableColumn prefWidth="110.0" text="segundo número" />
+            <TableColumn prefWidth="110.0" text="operador" />
+            <TableColumn prefWidth="182.0" text="resultado" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

@@ -38,12 +38,7 @@
          <font>
             <Font size="20.0" />
          </font></Label>
-      <Button layoutX="484.0" layoutY="83.0" mnemonicParsing="false" text="Histórico" />
-      <TextField fx:id="txtNUmero11" layoutX="324.0" layoutY="28.0">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </TextField>
+      <Button layoutX="32.0" layoutY="268.0" mnemonicParsing="false" text="Histórico" />
       <Label layoutX="400.0" layoutY="289.0" opacity="0.83" prefHeight="30.0" prefWidth="168.0" text="Desinger by: Jonathan &amp; Victor rodrigues" textFill="WHITE">
          <font>
             <Font size="9.0" />
