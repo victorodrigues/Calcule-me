@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="320.0" prefWidth="574.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.FXMLController">
+   <children>
+      <ImageView fitHeight="320.0" fitWidth="574.0">
+         <image>
+            <Image url="@../../../../../../../../Desktop/68410027-dota-2-logo-wallpapers.jpg" />
+         </image>
+         <effect>
+            <Bloom threshold="0.33" />
+         </effect>
+      </ImageView>
+      <Label layoutX="38.0" layoutY="34.0" opacity="0.9" prefHeight="30.0" prefWidth="74.0" text="Usuario" textFill="#bfb7b7">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="38.0" layoutY="235.0" mnemonicParsing="false" text="Logar" />
+      <Label layoutX="38.0" layoutY="117.0" opacity="0.9" prefHeight="30.0" prefWidth="74.0" text="Senha" textFill="#bfb7b7">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField layoutX="38.0" layoutY="77.0" />
+      <Label layoutX="406.0" layoutY="288.0" opacity="0.83" prefHeight="30.0" prefWidth="168.0" text="Desinger by: Jonathan &amp; Victor rodrigues" textFill="WHITE">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <PasswordField layoutX="38.0" layoutY="160.0" />
+      <Label layoutX="362.0" layoutY="15.0" opacity="0.9" prefHeight="45.0" prefWidth="157.0" text="Calculadota" textFill="#bfb7b7">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="362.0" layoutY="54.0" opacity="0.9" prefHeight="30.0" prefWidth="143.0" text="Pra calcular o dano nos inimigos" textFill="#bfb7b7">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
